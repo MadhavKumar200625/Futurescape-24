@@ -1,7 +1,7 @@
 'use client'
 import React, { useState , useEffect } from 'react';
 
-const page = () => {
+const Page = () => {
   const [selectedEvent, setSelectedEvent] = useState("");
   const [selectedNationality, setSelectedNationality] = useState("");
   const [showSchoolSection, setShowSchoolSection] = useState(false);
@@ -709,4 +709,4 @@ const indianStates = [
   "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
 ];
 
-export default page;
+export default Page;
