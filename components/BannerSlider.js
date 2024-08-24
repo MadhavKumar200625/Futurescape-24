@@ -22,7 +22,7 @@ const ImageSlider = () => {
   }, [images.length]);
 
   return (
-    <div className="relative w-auto h-[90vh] overflow-hidden ">
+    <div className="relative w-full h-[40vh] sm:h-[60vh] md:h-[80vh] lg:h-[90vh] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}
@@ -33,7 +33,7 @@ const ImageSlider = () => {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-scale-down"
           />
         </div>
       ))}

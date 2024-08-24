@@ -22,7 +22,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15142.34418418474!2d73
 
 
         <div className='h-14 flex justify-center py-16 items-center bg-white shadow-lg mb-10'>
-        <p className='text-2xl text-black flex items-center'><MdEmail className='mr-1' />futurescap24@christuniversity.in</p>
+        <p className='text-2xl text-black flex items-center'><MdEmail className='mr-1' />futurescape24@christuniversity.in</p>
 
         </div>
 
@@ -62,7 +62,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15142.34418418474!2d73
               <p className='flex text-sm justfy items-center'><MdEmail className='mr-1' /> lija.jacob@christuniversity.in</p>
               <p className='flex text-sm justfy items-center'><FaPhoneAlt/> +91 9447473770</p>
               <p className="mt-4 font-bold"><strong><IoPerson/></strong> Prof. Salve Margaret Joseph</p>
-              <p className='flex text-sm justfy items-center'><MdEmail className='mr-1' /> margret.joseph@christuniversity.in</p>
+              <p className='flex text-sm justfy items-center'><MdEmail className='mr-1' /> margaret.joseph@christuniversity.in</p>
               <p className='flex text-sm justfy items-center'><FaPhoneAlt/> +91 9890640361</p>
             </div>
           </div>
