@@ -11,7 +11,7 @@ const Footer = () => {
   };
   return (
     <footer className="bg-blue-900 text-gray-400 body-font pt-7">
-      <div className="md:flex flex-col hidden justify-center   md:flex-row md:space-x-4 items-center md:order-2">
+      <div className="flex flex-col justify-center sm:flex-row md:space-x-4 items-center md:order-2">
 
 
         <Link

@@ -23,7 +23,7 @@ const Navbar = () => {
        
         <div className="text-xl font-bold mb-2 md:mb-0 md:mr-4 md:order-1 md:text-2xl">
           <Link href="/">
-            <img src="/Futurescape logo.png" alt="futurescape logo" className='h-20' />
+            <img src="/FuturescapeLogo.png" alt="futurescape logo" className='h-20' />
           </Link>
         </div>
 

@@ -148,13 +148,13 @@ const teams = {
       name: 'Madhav Kumar',
       github: 'https://github.com/MadhavKumar200625',
       eventName: '1BCA (24-28 Batch)',
-      imageSrc: 'https://dummyimage.com/150x150',
+      imageSrc: '/MadhavKumar.jpg',
     },
     {
       name: 'Mayank Sharma',
       github: 'https://github.com/MAYANKSHARMA006',
       eventName: '1BCA (24-28 Batch)',
-      imageSrc: 'https://dummyimage.com/150x150',
+      imageSrc: '/MayankSharma.jpg',
     },
     
     {
