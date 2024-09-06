@@ -118,7 +118,7 @@ const page = () => {
             sustainability.
           </p>
           <Link
-            href="/register"
+            href="/registration/InnoVision"
             className="inline-flex text-white bg-blue-600 border-0 py-3 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg"
           >
             <div className="flex flex-col">

@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import { stringify } from 'postcss';
 
 const { Schema } = mongoose;
 
@@ -39,13 +40,26 @@ const mentorSchema = new Schema({
 const schoolDetailsSchema = new Schema({
   state: {
     type: String,
-    required: true,
+    
   },
   district: {
     type: String,
-    required: true,
+    
   },
   name: {
+    type: String,
+    required: true,
+  },
+
+  principalName: {
+    type: String,
+    required: true,
+  },
+  principalPhone: {
+    type: String,
+    required: true,
+  },
+  principalEmail: {
     type: String,
     required: true,
   },
@@ -81,18 +95,23 @@ const registrationSchema = new Schema({
     required: true,
   },
   registrationNumber: {
-    type: Number,
+    type: String,
     unique: true,
     required: true,
   },
-  fileUrl: {
-    type: String,
+  tracksInterested: {
+    type: [String],
     required: true,
   },
+  howDidYouHearAboutUs: {
+    type: {platform:String,text:String},
+    required: true
+  }
 });
 
+
 function maxParticipants(participants) {
-  return participants.length === 3;
+  return participants.length <= 3;
 }
 
 export default mongoose.models.Registration || mongoose.model('Registration', registrationSchema);
