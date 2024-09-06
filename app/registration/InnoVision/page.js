@@ -1,11 +1,11 @@
-"use client";
+'use client'
 import ScrollingText from "@/components/ScrollingText";
 import SearchableDropdown from "@/components/SearchableDropdown";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { useState, useEffect } from "react";
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const [selectedCountry, setSelectedCountry] = useState("");
   const [buttonDisabled, setButtonDisabled] = useState(false);
@@ -907,4 +907,4 @@ const howDidYouHearList = [
   { platform: "Other", textRequired: true },
 ];
 
-export default page;
+export default Page;
