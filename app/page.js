@@ -12,29 +12,31 @@ export default function Home() {
       <ImageSlider></ImageSlider>
       <RegisterPopup></RegisterPopup>
 
-      <div className="flex m-4 mb-10 justify-center">
+      <div className="flex m-4 my-10 mb-10 justify-center">
         <h1 className="xl:text-8xl md:text-5xl sm:text-3xl text-xl text-black">
           𝔽𝕌𝕋𝕌ℝ𝔼𝕊ℂ𝔸ℙ𝔼 - 24
         </h1>
       </div>
 
-      <p className="text-base leading-relaxed m-10 text-justify text-gray-700">
-        FutureScape 24 is a global initiative that aims to push the boundaries
-        of innovation, creativity, and problem-solving among students and
-        educators around the world. This program is more than just a series of
-        events; it’s a drive for change, bringing together the ideas of both
-        young minds and experienced educators to tackle the complex challenges
-        of today’s world. By focusing on key areas like sustainability,
-        technology, entrepreneurship, and education, FutureScape 24 helps
-        participants create solutions that are both innovative and practical.
-        The program encourages a culture of innovation, where participants are
-        motivated to think critically, explore new ideas, and challenge what’s
-        possible. Through a mix of competitive events, collaborative
-        discussions, and hands-on experiences, FutureScape 24 offers a unique
-        platform for participants to deeply engage with current issues, learn
-        from each other, and develop solutions that can make a real difference
-        in their communities and beyond.
-      </p>
+      <div className="container mx-auto">
+        <p className="text-base leading-relaxed m-10 text-justify text-gray-700">
+          FutureScape 24 is a global initiative that aims to push the boundaries
+          of innovation, creativity, and problem-solving among students and
+          educators around the world. This program is more than just a series of
+          events; it’s a drive for change, bringing together the ideas of both
+          young minds and experienced educators to tackle the complex challenges
+          of today’s world. By focusing on key areas like sustainability,
+          technology, entrepreneurship, and education, FutureScape 24 helps
+          participants create solutions that are both innovative and practical.
+          The program encourages a culture of innovation, where participants are
+          motivated to think critically, explore new ideas, and challenge what’s
+          possible. Through a mix of competitive events, collaborative
+          discussions, and hands-on experiences, FutureScape 24 offers a unique
+          platform for participants to deeply engage with current issues, learn
+          from each other, and develop solutions that can make a real difference
+          in their communities and beyond.
+        </p>
+      </div>
 
       <section
         className="text-gray-600 flex justify-center p-5 body-font"
@@ -49,10 +51,7 @@ export default function Home() {
               <div className=" flex flex-col text-center bg-blue-100 rounded-2xl items-center">
                 <div className="w-64 h-auto mb-10 inline-flex items-center justify-center flex-shrink-0">
                   <h2 className="text-5xl text-black">𝕀ℕℕ𝕆𝕍𝕀𝕊𝕀𝕆ℕ</h2>
-                  
-                  
                 </div>
-                
                 <div className="flex-grow">
                   <h3 className="text-gray-900 text-xl title-font font-light ">
                     An Ideathon designed for Junior College students, where
@@ -102,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div>
+      <div className="container mx-auto">
         <div className="flex justify-center flex-col mt-10">
           <br />
 
@@ -151,75 +150,77 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col">
-        <div className="flex justify-center">
-          <h2 className="text-3xl font-bold text-black">
-            CHRIST (Deemed to be University) Pune - Lavasa
-          </h2>
-        </div>
+      <div className="container mx-auto">
+        <div className="flex flex-col">
+          <div className="flex justify-center">
+            <h2 className="text-3xl font-bold text-black">
+              CHRIST (Deemed to be University) Pune - Lavasa
+            </h2>
+          </div>
 
-        <div className="flex flex-col sm:flex-row sm:my-10 sm:mx-20">
-          <img
-            src="/Christ Lavasa.jpeg"
-            alt="christ Lavasa"
-            className="my-4 sm:w-1/2 w-full"
-          />
-          <div className="sm:w-1/2 flex flex-col mx-10 text-black">
-            <p className="text-justify">
-              CHRIST University, inspired by the educational vision of St.
-              Chavara, was founded in 1969 and has since grown into a respected
-              institution known for academic excellence across India.
-              Administered by the Carmelites of Mary Immaculate (CMI), the
-              university was accredited by NAAC in 1998, granted autonomy by the
-              UGC in 2004, and declared a ‘Deemed to be University’ by the
-              Ministry of Education in 2008. The Pune Lavasa Campus, established
-              in 2014, has rapidly become a leading center for higher education,
-              offering undergraduate, postgraduate, and doctoral programs in
-              disciplines of Data Science, Economics, Business Administration,
-              Commerce, Languages, and Law. Aligned with the National Education
-              Policy (NEP), CHRIST Lavasa provides a flexible, interdisciplinary
-              curriculum that emphasizes research, skill development, and
-              holistic learning. Beyond academics, the campus fosters a vibrant
-              community with over 30 clubs, international conferences, and
-              events that enhance personal growth and global perspectives.
-              Committed to nurturing responsible global citizens, CHRIST Lavasa
-              combines academic rigor with comprehensive personal development.
-            </p>
+          <div className="flex flex-col sm:flex-row sm:my-10 ">
+            <img
+              src="/Christ Lavasa.jpeg"
+              alt="christ Lavasa"
+              className="sm:w-1/3 w-full"
+            />
+            <div className="sm:w-2/3 flex flex-col ml-10 text-black">
+              <p className="text-justify">
+                CHRIST University, inspired by the educational vision of St.
+                Chavara, was founded in 1969 and has since grown into a respected
+                institution known for academic excellence across India.
+                Administered by the Carmelites of Mary Immaculate (CMI), the
+                university was accredited by NAAC in 1998, granted autonomy by the
+                UGC in 2004, and declared a ‘Deemed to be University’ by the
+                Ministry of Education in 2008. The Pune Lavasa Campus, established
+                in 2014, has rapidly become a leading center for higher education,
+                offering undergraduate, postgraduate, and doctoral programs in
+                disciplines of Data Science, Economics, Business Administration,
+                Commerce, Languages, and Law. Aligned with the National Education
+                Policy (NEP), CHRIST Lavasa provides a flexible, interdisciplinary
+                curriculum that emphasizes research, skill development, and
+                holistic learning. Beyond academics, the campus fosters a vibrant
+                community with over 30 clubs, international conferences, and
+                events that enhance personal growth and global perspectives.
+                Committed to nurturing responsible global citizens, CHRIST Lavasa
+                combines academic rigor with comprehensive personal development.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="flex flex-col">
-        <div className="flex justify-center">
-          <h2 className="text-3xl font-bold mt-5 text-black">Lavasa</h2>
-        </div>
-
-        <div className="flex flex-col-reverse sm:flex-row sm:my-10 sm:mx-20">
-          <div className="sm:w-1/2 my-5 flex flex-col mx-10 text-black">
-            <p className="text-justify">
-              Lavasa, India’s first planned hill city, is located in the scenic
-              Western Ghats of Maharashtra, about 60 kilometers from Pune.
-              Designed to blend urban living with nature, Lavasa spans lush
-              green valleys and serene lakes, offering a tranquil environment
-              inspired by the principles of New Urbanism, which emphasize
-              walkable neighborhoods, sustainable living, and a strong community
-              spirit.
-            </p>
-
-            <br />
-
-            <p className="text-justify">
-              Beyond being a residential hub, Lavasa is a vibrant destination
-              known for its infrastructure, recreational facilities, and
-              educational opportunities. The city hosts prestigious institutions
-              like CHRIST (Deemed to be University), Pune Lavasa Campus, making
-              it a center for education and innovation. With its peaceful yet
-              strategic location near major urban centers like Pune and Mumbai,
-              Lavasa offers the perfect balance for those seeking quality
-              education in a serene setting.
-            </p>
+        <div className="flex flex-col">
+          <div className="flex justify-center">
+            <h2 className="text-3xl font-bold mt-5 text-black">Lavasa</h2>
           </div>
-          <img src="/Lavasa.jpeg" alt="Lavasa" className="my-4 sm:w-1/2 w-full" />
+
+          <div className="flex flex-col-reverse sm:flex-row sm:my-10 ">
+            <div className="sm:w-2/3 my-5 flex flex-col mr-10 text-black">
+              <p className="text-justify">
+                Lavasa, India’s first planned hill city, is located in the scenic
+                Western Ghats of Maharashtra, about 60 kilometers from Pune.
+                Designed to blend urban living with nature, Lavasa spans lush
+                green valleys and serene lakes, offering a tranquil environment
+                inspired by the principles of New Urbanism, which emphasize
+                walkable neighborhoods, sustainable living, and a strong community
+                spirit.
+              </p>
+
+              <br />
+
+              <p className="text-justify">
+                Beyond being a residential hub, Lavasa is a vibrant destination
+                known for its infrastructure, recreational facilities, and
+                educational opportunities. The city hosts prestigious institutions
+                like CHRIST (Deemed to be University), Pune Lavasa Campus, making
+                it a center for education and innovation. With its peaceful yet
+                strategic location near major urban centers like Pune and Mumbai,
+                Lavasa offers the perfect balance for those seeking quality
+                education in a serene setting.
+              </p>
+            </div>
+            <img src="/Lavasa.jpeg" alt="Lavasa" className=" sm:w-1/3 w-full" />
+          </div>
         </div>
       </div>
 

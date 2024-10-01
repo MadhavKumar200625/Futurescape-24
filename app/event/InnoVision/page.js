@@ -13,7 +13,7 @@ const page = () => {
             InnoVision: The Next Big Idea
           </h1>
           <p className="text-lg leading-relaxed xl:w-2/3 lg:w-3/4 mx-auto text-white ">
-            Welcome to InnoVision—an exhilarating Ideathon where Junior Collage
+            Welcome to InnoVision — an exhilarating Ideathon where Junior Collage
             students (11th and 12th grade) transform their visionary ideas into
             tangible solutions. This is your platform to innovate, create, and
             make a difference! Teams of up to 3 students, with the guidance of a
@@ -100,11 +100,45 @@ const page = () => {
             </div>
           </div>
           <div className="md:w-1/4">
-            <img
-              src="/InnovisionRoadmap.png"
-              alt="Roadmap"
-              className="w-full h-auto rounded-lg shadow-lg md:sticky md:top-16"
-            />
+            <div className="p-6 rounded-lg bg-gray-100">
+              <h2 className="text-gray-900 text-2xl title-font font-medium mb-3">
+                Key Dates
+              </h2>
+              <div className="mb-5">
+                Ready to make a difference? Get started and let your innovation shine!
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Registration Opens:</span><br />
+                August 1st, 2024
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Idea Abstract Submission:</span><br />
+                October 12th, 2024
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Concept Video Submission:</span><br />
+                October 15th, 2024
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Blueprint Submission:</span><br />
+                October 27th, 2024
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Finale (Pitch Presentation):</span><br />
+                November 16th, 2024
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Registration Link:</span><br />
+                <a href="https://forms.gle/iD5V41ivKf2xF8dw8" target="_blank" className="text-blue-500">https://forms.gle/iD5V41ivKf2xF8dw8</a>
+                <small className="block text-xs text-gray-500 mt-2">
+                  Registration charge: Rs 900+GST (Early bird Rs 600+GST- September 05th, 2024)
+                </small>
+              </div>
+              <div className="mb-3">
+                <span className="font-bold">Payment Link:</span><br />
+                <a href="https://lavasa.christuniversity.in/e-services-online-payment-portal" target="_blank" className="text-blue-500">https://lavasa.christuniversity.in/e-services-online-payment-portal</a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -113,18 +147,16 @@ const page = () => {
             Win a Prize Pool of Rs 2 Lakh!
           </h2>
           <p className="leading-relaxed text-lg text-gray-700 mb-8">
-            The competition is fierce, and the rewards are substantial. It’s
-            your chance to push the boundaries of creativity, technology, and
-            sustainability.
+            The competition is fierce, and the rewards are significant. The total prize pool of Rs 2 Lakh offers substantial recognition and motivation for your hard work and creativity. This is not just about winning; it’s about pushing the boundaries of what’s possible, exploring new technologies, and contributing to sustainability. Whether your idea leverages cutting-edge technology, addresses critical social issues, or introduces a novel approach to an existing problem, this competition is your chance to make a meaningful impact. Join us, and let your ideas shape the future-transforming them from concepts into impactful solutions that can change the world!
           </p>
           <Link
             href="/registration/InnoVision"
             className="inline-flex text-white bg-blue-600 border-0 py-3 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg"
           >
             <div className="flex flex-col">
-            <p>Join Us and Turn Your Ideas Into Impactful Solutions!</p>
-            <p>Registration Fee: Rs. 900</p>
-            <p>Early Bird : Rs. 600 (September 5th , 2024)</p>
+              <p>Join Us and Turn Your Ideas Into Impactful Solutions!</p>
+              <p>Registration Fee: Rs. 900</p>
+              <p>Early Bird : Rs. 600 (September 5th , 2024)</p>
             </div>
           </Link>
         </div>

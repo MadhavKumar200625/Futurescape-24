@@ -15,9 +15,9 @@ const Page = () => {
     <div className="container mx-auto my-20">
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6 justify-center">
         {/* InnoVision Card */}
-        <div
-          onClick={() => handleCardClick("InnoVision")}
+        <a
           className="md:w-1/4 flex flex-col text-center items-center bg-blue-100 rounded-xl p-3 mb-6 md:mb-0 md:mr-4 cursor-pointer"
+          href='https://forms.gle/iD5V41ivKf2xF8dw8' target='_blank'
         >
           <div className="flex flex-col text-center h-auto p-5 rounded-2xl items-center">
             <div className="w-64 mb-10 inline-flex items-center justify-center flex-shrink-0">
@@ -31,11 +31,10 @@ const Page = () => {
               </h3>
             </div>
           </div>
-        </div>
+        </a>
 
         {/* Hackverse Card */}
         <div
-          onClick={() => handleCardClick("HackVerse")}
           className="md:w-1/4 flex flex-col text-center items-center bg-blue-100 rounded-2xl p-3 mb-6 md:mb-0 md:mr-4 cursor-pointer"
         >
           <div className="flex flex-col text-center p-5 items-center">
@@ -54,7 +53,6 @@ const Page = () => {
 
         {/* Conclave Card */}
         <div
-          onClick={() => handleCardClick("Conclave")}
           className="md:w-1/4 mt-10 md:mt-0 flex flex-col bg-blue-100 text-center items-center rounded-xl p-3 cursor-pointer"
         >
           <div className="flex flex-col text-center p-5 rounded-2xl items-center">
