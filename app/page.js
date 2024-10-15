@@ -9,10 +9,25 @@ export default function Home() {
   return (
     <main className=" bg-white">
       {/* <ScrollingText></ScrollingText> */}
-      <ImageSlider></ImageSlider>
-      <RegisterPopup></RegisterPopup>
+      {/* <ImageSlider></ImageSlider> */}
 
-      <div className="flex m-4 my-10 mb-10 justify-center">
+      <div className="flex flex-col-reverse sm:flex-row">
+        <div className="hidden sm:block sm:w-1/2">
+          <ImageSlider />
+        </div>
+        <div className="w-full sm:w-1/2">
+          <iframe
+            src="https://drive.google.com/file/d/11HS_9eW5UDCZYLwXGjmLIYswrvYWhDCm/preview"
+            className="w-full h-[50vh] bg-blue-100"
+            allow="autoplay">
+          </iframe>
+        </div>
+      </div>
+
+
+      {/* <RegisterPopup></RegisterPopup> */}
+
+      <div className="flex m-4  my-14 mb-10 justify-center">
         <h1 className="xl:text-8xl md:text-5xl sm:text-3xl text-xl text-black">
           𝔽𝕌𝕋𝕌ℝ𝔼𝕊ℂ𝔸ℙ𝔼 - 24
         </h1>
@@ -164,7 +179,7 @@ export default function Home() {
               alt="christ Lavasa"
               className="sm:w-1/3 w-full"
             />
-            <div className="sm:w-2/3 flex flex-col ml-10 text-black">
+            <div className="sm:w-2/3 flex flex-col m-10 text-black">
               <p className="text-justify">
                 CHRIST University, inspired by the educational vision of St.
                 Chavara, was founded in 1969 and has since grown into a respected
@@ -195,7 +210,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col-reverse sm:flex-row sm:my-10 ">
-            <div className="sm:w-2/3 my-5 flex flex-col mr-10 text-black">
+            <div className="sm:w-2/3 my-5 flex flex-col m-10 text-black">
               <p className="text-justify">
                 Lavasa, India’s first planned hill city, is located in the scenic
                 Western Ghats of Maharashtra, about 60 kilometers from Pune.
