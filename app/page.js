@@ -78,7 +78,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/event/Hackverse"
+              href="/Hackthon2k24/index.html" target="blank"
               className="md:w-1/4 flex flex-col text-center items-center bg-blue-100 rounded-xl p-3 mb-6 md:mb-0 md:mr-4"
             >
               <div className=" flex flex-col text-center items-center">

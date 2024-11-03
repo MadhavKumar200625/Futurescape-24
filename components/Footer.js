@@ -28,7 +28,7 @@ const Footer = () => {
           InnoVision
         </Link>
         <Link
-          href="/event/Hackverse"
+           href="/Hackthon2k24/index.html" target="blank" 
           className="text-white  font-light text-lg mt-2 md:mt-0 md:text-xl"
         >
           Hackverse

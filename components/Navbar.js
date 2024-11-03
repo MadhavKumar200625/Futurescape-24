@@ -56,7 +56,7 @@ const Navbar = () => {
                 <Link href="/event/InnoVision" className="block px-4 py-2 text-gray-800 hover:bg-gray-100" onClick={toggleDropdown}>
                 InnoVision
                 </Link>
-                <Link href="/event/Hackverse" className="block px-4 py-2 text-gray-800 hover:bg-gray-100" onClick={toggleDropdown}>
+                <Link href="/Hackthon2k24/index.html" target="blank" className="block px-4 py-2 text-gray-800 hover:bg-gray-100" onClick={toggleDropdown}>
                   Hackverse
                 </Link>
                 <Link href="/event/Conclave" className="block px-4 py-2 text-gray-800 hover:bg-gray-100" onClick={toggleDropdown}>
